@@ -29,7 +29,7 @@ export function IsCurrency(validationOptions?: ValidationOptions) {
                         'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS',
                         'UAH', 'UGX', 'USD', 'UYU', 'UZS', 'VND', 'VUV', 'WST', 'XAF', 'XCD',
                         'XDR', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW', 'ZWL'
-                    ];
+                    ];//Proper Valid currencies are defined
                     return validCurrencies.includes(value);
                 },
             },
